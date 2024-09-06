@@ -1,2 +1,2 @@
-#View My ePortfolio
-https://main--hi-im-emily.netlify.app/#projects
+# View My ePortfolio:
+https://hi-im-emily.vercel.app/
