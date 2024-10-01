@@ -23,6 +23,7 @@ import {
   reactIcon,
   reasonED,
   snow,
+  profilePalette,
   sql
 } from "../assets";
 
@@ -53,10 +54,10 @@ const icons = {
 
 const introduction = {
   text: [
-    "Hi, I'm Emily! I am a senior computer science undergraduate at Old Dominion University pursuing software development and game design.",
-    "I have over 5 years of academic programming experience as well as research and internship experience. I am most interested in software-based education tools, web development, game design, and information systems. This website is a collection of my projects, research, and internship reflections.",
-    "I am currently trying to get my foot in the door via remote software development opportunities. Your visit is much appreciated! Thank you for reading. ",
-  ],
+    "Hi, I'm Emily! I am a recent B.S.C.S graduate pursuing a career in software engineering.",
+    "I'm versed in Java, C++, JS/TS, React, Next.js, Vue.js, Database design, and more.  I am interested in software-based education tools, web development, DevOps, and information systems. This website is a collection of my projects, research, and internship experiences.",
+    "I am currently open to remote SE opportunities. Thanks for visiting!",
+  ]
 };
 
 
@@ -64,21 +65,22 @@ const internships = [
   {
     name: "Innovate Cyber Spring 2024",
     description:
-      "This was an experiential learning initiative where I was able to employ innovation, creativity, active learning, critical and thinking/analysis skills. As a member of the INNOVATE Cyber 2024 cohort, I worked to identify a challenge related to making cybersecurity more approachable and increasing people's cyber hygiene. Using a design thinking approach to problem-solving, I built User Experience skills by identifying the root cause, developing a solution to address the problem, and iterating to create a prototype to solve the challenge.",
+      "As a member of the INNOVATE Cyber 2024 cohort, I worked to identify a challenge related to making cybersecurity more approachable. Using a design thinking approach to problem-solving, I collaborated with students from various universities to develop a stipend-winning prototype that keeps older demographics informed about cyber hygiene. ",
     documentLink: "https://drive.google.com/file/d/1TMBM-F2o8eO0_ltogyo8B9CZUa4GwID1/preview",
   },
   {
     name: "ODU Game Studies ",
     description:
-      "During this Summer 2023 internship, I contributed to the creation of a mobile game aimed at facilitating campus exploration for incoming students at Old Dominion University. As a first-time Unity user, I implemented inspect functionalities for 3D models, audio controls, and various UI elements within Unity. I collaborated with Sound, 3D Design, and UI teams to utilize their work and add functionalities to the game. I participated in story tracking and communicated my progress to Dr. Kevin Moberly of the ODU Game Studies program.",
+      "During this Summer 2023 internship, I helped develop a mobile game that encourages campus exploration for incoming ODU students. Using Unity, I implemented inspect functionalities for 3D models, audio controls, and various UI elements. I collaborated with Sound, 3D Design, and UI teams to utilize their work and add functionalities to the game. I participated in story tracking and communicated progress to Dr. Kevin Moberly of the ODU Game Studies program.",
     documentLink: "https://drive.google.com/file/d/1tWv6Kb__pqjluLDwMCdo3hakAoMYJ1V7/preview",
   },
   {
     name: "Capstone Research Project",
     description:
-      "In this capstone course, I investigated the existence and prevalence of logical fallacies in online content, the quality of logical fallacy and critical reasoning education in the United States, and designed a software-based solution to help educators prioritize logical fallacy education in k-12 schools. I analyzed the feasibility of this solution and wrote a Software Requirements Specification for its prototype.",
+      "Throughout this year-long capstone course, I designed and developed a software-based solution to help educators prioritize logical fallacy education in k-12 schools. I analyzed the feasibility of this solution, wrote Software Requirements Specifications, and led the development of its prototype.",
     documentLink: "https://drive.google.com/file/d/14bSAjb65jP5QFcszJNNoEVE3WjsRm9MQ/preview",
   },
+
 ];
 
 
@@ -111,12 +113,20 @@ export const navLinks = [
 
 const projects = [
   {
-    name: "ReasonED (In Progress)",
+    name: "ReasonED",
     description:
       "A game-based learning website that cultivates logical fallacy identification skills for kids and adults of all ages. Implemented with Next.js and Godot. This capstone prototype is a project I've led to help address the lack of critical reasoning skills in today's online world, where flawed logic is shared rampantly and utilized by filter-bubble algorithms.",
     image: reasonED,
     source_code_link: "https://github.com/emrlk/ReasonED",
     demo_link: "https://reasoned.vercel.app/",
+  },
+  {
+    name: "Profile Palette",
+    description:
+      "Browse Steam™ badges, backgrounds, and emotes by color and theme.",
+    image: profilePalette,
+    source_code_link: "https://github.com/emrlk/profile-palette",
+    demo_link: "https://profilepalette.netlify.app/",
   },
   {
     name: "Cyber Chunks",
@@ -127,6 +137,7 @@ const projects = [
     demo_link:
       "https://sites.google.com/view/cyber-chunks/home",
   },
+
   {
     name: "Snow",
     description:

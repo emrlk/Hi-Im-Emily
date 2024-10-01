@@ -19,11 +19,12 @@ import sql from './tech/sql.png';
 import CyberChunks from './projects/CyberChunks.jpg';
 import reasonED from './projects/ReasonED_Project_Cover.jpg';
 import snow from './projects/snow.jpg';
+import profilePalette from './projects/profile-palette.jpg';
 
 // Avatar
 import avatar from './avatar/avatar.png';
 
 export {
-  CyberChunks, EIcon, avatar, close, cssIcon, gitIcon, githubIcon, htmlIcon, javaIcon, jsIcon, menu, psqlIcon, reactIcon, reasonED, snow, sql
+  CyberChunks, EIcon, avatar, close, cssIcon, gitIcon, githubIcon, htmlIcon, javaIcon, jsIcon, menu, psqlIcon, profilePalette, reactIcon, reasonED, snow, sql
 };
 
