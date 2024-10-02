@@ -111,7 +111,7 @@ const Internships = () => {
                             </m.p>
                         </LazyMotion>
                     </div>
-                    <div className="w-full md:w-[50%] flex h-full items-center justify-center">
+                    <div className="w-full md:w-[50%] flex h-full items-center justify-center pl-20">
                         <div className="w-[100%] flex justify-center items-center">
                             <span>
                             <iframe src={internships[2].documentLink} width="300" height="320" allow="autoplay"></iframe>
