@@ -115,7 +115,7 @@ const projects = [
   {
     name: "ReasonED",
     description:
-      "A game-based learning website that cultivates logical fallacy identification skills for kids and adults of all ages. Implemented with Next.js and Godot. This capstone prototype is a project I've led to help address the lack of critical reasoning skills in today's online world, where flawed logic is shared rampantly and utilized by filter-bubble algorithms.",
+      "A game-based learning website about logical fallacies. Implemented with Next.js and Godot." ,
     image: reasonED,
     source_code_link: "https://github.com/emrlk/ReasonED",
     demo_link: "https://reasoned.vercel.app/",
@@ -129,16 +129,6 @@ const projects = [
     demo_link: "https://profilepalette.netlify.app/",
   },
   {
-    name: "Cyber Chunks",
-    description:
-      "Solution pitch developed for my Innovate-Cyber research and internship initiative. Cyber Chunks are fun, educational monthly cyber hygiene booklets made especially for individuals who are not tech-savvy. ",
-    image: CyberChunks,
-    source_code_link: "",
-    demo_link:
-      "https://sites.google.com/view/cyber-chunks/home",
-  },
-
-  {
     name: "Snow",
     description:
       "A work-in-progress scene implemented with Three.js.",
@@ -146,6 +136,17 @@ const projects = [
     source_code_link: "https://github.com/emrlk/ThreeSnow?tab=readme-ov-file",
     demo_link: "https://emrlk.github.io/ThreeSnow/",
   },
+  {
+    name: "Cyber Chunks",
+    description:
+      "Product pitch developed for the Innovate-Cyber research initiative. Cyber Chunks are fun, educational cyber hygiene booklets for tech-users who aren't tech-savvy. ",
+    image: CyberChunks,
+    source_code_link: "https://sites.google.com/view/cyber-chunks/home",
+    demo_link:
+      "https://sites.google.com/view/cyber-chunks/home",
+  },
+
+
 ];
 
 const memoji = {
