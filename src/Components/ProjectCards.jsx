@@ -168,16 +168,16 @@ const SectionWrapper = (Component, idName) =>
             </p>
           </div>
           <div
-            className="mt-4 flex flex-wrap gap-1"
+            className="mt-4 flex flex-wrap gap-0"
           >
           </div>
 
           
           <div
-            className="mt-3 flex justify-center items-center"
+            className="mt-1 flex justify-center items-center"
           >
             <a
-              className="shadow-md shadow-primary m-3 p-2 bg-primary-600 w-[60%] rounded-lg flex justify-center"
+              className="shadow-md shadow-primary m-3 p-2  bg-primary-600 w-[60%] rounded-lg flex justify-center"
               href={demo_link}
               target='_blank'
             >
@@ -200,7 +200,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-10 flex flex-wrap gap-5">
         {projects.map((project, index) => (
           <ProjectCard 
             key={`project-${index}`}
